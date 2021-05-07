@@ -6,7 +6,7 @@ git clone https://github.com/stevetsa/odsetdocker.git
 docker build -t stevetsa/odsetdocker .
 
 # or simply run the Docker image
-```
+
 docker run -v C:\Users\...\odsetdocker:/home/jovyan/work/ -p 8888:8888 -it stevetsa/odsetdocker
 docker run -v C:\Users\...\odsetdocker:/home/jovyan/work/ -p 8888:8888 -it stevetsa/odsetdocker /bin/bash
 ```
